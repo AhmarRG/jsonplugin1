@@ -1,0 +1,55 @@
+{
+  "name": "jsonplugin",
+  "version": "1.0.0",
+  "description": "customize plugin for json",
+  "main": "module.js",
+  "scripts": {
+    "test": "./node_modules/grunt-cli/bin/grunt mochaTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmarRG/jsonplugin1.git"
+  },
+  "keywords": [
+    "json",
+    "custom",
+    "datasource"
+  ],
+  "author": "Ahmar",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/AhmarRG/jsonplugin1/issues"
+  },
+  "homepage": "https://github.com/AhmarRG/jsonplugin1#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel": "^6.23.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "grunt": "^1.0.4",
+    "grunt-babel": "^8.0.0",
+    "grunt-cli": "^1.3.2",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-execute": "^0.2.2",
+    "grunt-mocha-test": "^0.13.3",
+    "grunt-systemjs-builder": "^1.0.0",
+    "jsdom": "^16.1.0",
+    "load-grunt-tasks": "^5.1.0",
+    "mocha": "^7.0.1",
+    "prunk": "^1.3.1",
+    "q": "^1.5.1"
+  }
+}
